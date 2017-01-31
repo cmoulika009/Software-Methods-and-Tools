@@ -1,0 +1,14 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler * 1159120
+
+- filesTable = { IRPYRawContainer 
+	- size = 7;
+	- value = "Projects.rpl" ""
+	"UMLModelingA.rpy" ""
+	"UMLModelingA_rpy\\Bank_Accounts.sbs" "Bank_Accounts"
+	"UMLModelingA_rpy\\Default.sbs" "Default"
+	"UMLModelingA_rpy\\DefaultComponent.cmp" "DefaultComponent"
+	"UMLModelingA_rpy\\Transactions.sbs" "Transactions"
+	"UMLModelingA_rpy\\Users.sbs" "Users"
+	
+}
+
