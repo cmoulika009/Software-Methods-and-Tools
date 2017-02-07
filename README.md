@@ -1,2 +1,3 @@
-# Software-Methods-and-Tools
+# Software Methods and Tools
+
 This repository contains all the files related to SMT
