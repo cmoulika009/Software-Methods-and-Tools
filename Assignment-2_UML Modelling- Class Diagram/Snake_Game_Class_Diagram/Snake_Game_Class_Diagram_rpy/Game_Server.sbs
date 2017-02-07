@@ -1,0 +1,160 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
+{ ISubsystem 
+	- _id = GUID 5998ea10-263f-4ad9-a3da-2c593fe9eb06;
+	- _myState = 8192;
+	- _name = "Game_Server";
+	- _objectCreation = "4413059602017144269244";
+	- _umlDependencyID = "2593";
+	- _theMainDiagram = { IHandle 
+		- _m2Class = "IDiagram";
+		- _filename = "";
+		- _subsystem = "";
+		- _class = "";
+		- _name = "Class Diagram";
+		- _id = GUID 665b6ba0-22db-4007-8a94-1f4bd2029e7d;
+	}
+	- _lastID = 6;
+	- weakCGTime = 2.6.2017::19:59:52;
+	- strongCGTime = 2.6.2017::19:52:12;
+	- _defaultComposite = GUID e1024303-4b17-4aa2-b184-2497e5907d07;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 3;
+		- value = 
+		{ IClass 
+			- _id = GUID e1024303-4b17-4aa2-b184-2497e5907d07;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _objectCreation = "4413061602017144267244";
+			- _umlDependencyID = "2291";
+			- weakCGTime = 12.31.1969::18:0:0;
+			- strongCGTime = 12.31.1969::18:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID d43efd76-e9fc-4fa8-82cc-845224d2e04b;
+			- _myState = 8192;
+			- _name = "Game_Control";
+			- _objectCreation = "4413063602017144265244";
+			- _umlDependencyID = "2690";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Class Diagram";
+				- _id = GUID 665b6ba0-22db-4007-8a94-1f4bd2029e7d;
+			}
+			- weakCGTime = 2.6.2017::19:55:42;
+			- strongCGTime = 2.6.2017::19:55:42;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 5d4b3e8d-b782-4727-b96d-32eba119a275;
+			- _myState = 8192;
+			- _name = "Current_Position";
+			- _objectCreation = "4413065602017144263244";
+			- _umlDependencyID = "3167";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Class Diagram";
+				- _id = GUID 665b6ba0-22db-4007-8a94-1f4bd2029e7d;
+			}
+			- _lastID = 3;
+			- weakCGTime = 2.6.2017::20:0:1;
+			- strongCGTime = 2.6.2017::19:56:0;
+			- Attrs = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IAttribute 
+					- _id = GUID bd16938d-0a86-4bd5-b14b-c21215b20943;
+					- _name = "Level";
+					- _objectCreation = "4413067602017144261244";
+					- _umlDependencyID = "1984";
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC++.sbs";
+						- _subsystem = "PredefinedTypesCpp";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 6024c6ab-fe9e-402e-954f-27aca6d3b5e4;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID 0ea97b66-e090-4c71-99f7-c4c3869ec24d;
+					- _name = "StartGame";
+					- _objectCreation = "4413069602017144259244";
+					- _umlDependencyID = "2393";
+					- myTypeOf = { IType 
+						- _id = GUID a6de7116-1ade-4f6f-a17d-ef2984d90261;
+						- _myState = 8192;
+						- _objectCreation = "4413071602017144257244";
+						- _umlDependencyID = "1480";
+						- _declaration = "String";
+						- _kind = Language;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID 64898545-7b84-4581-82f7-0350e98d16a0;
+					- _name = "GameOver";
+					- _objectCreation = "4413073602017144255244";
+					- _umlDependencyID = "2270";
+					- myTypeOf = { IType 
+						- _id = GUID 4b39a74c-a880-427c-8861-e023e33e896f;
+						- _myState = 8192;
+						- _objectCreation = "4413075602017144253244";
+						- _umlDependencyID = "1480";
+						- _declaration = "String";
+						- _kind = Language;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- Types = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IType 
+			- _id = GUID 3fb96909-541f-4878-9928-989698c93c26;
+			- _myState = 8192;
+			- _name = "String";
+			- _objectCreation = "4413077602017144251244";
+			- _umlDependencyID = "2111";
+			- _declaration = "";
+			- _kind = Language;
+		}
+	}
+	- _configurationRelatedTime = 12.31.1969::18:0:0;
+}
+

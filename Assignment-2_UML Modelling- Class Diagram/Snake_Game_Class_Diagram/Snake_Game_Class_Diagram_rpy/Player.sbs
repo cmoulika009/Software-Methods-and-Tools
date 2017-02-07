@@ -1,0 +1,131 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
+{ ISubsystem 
+	- _id = GUID 588bfdda-0375-46cb-abde-1d5d6a3faa90;
+	- _myState = 8192;
+	- _name = "Player";
+	- _objectCreation = "4413039602017144289244";
+	- _umlDependencyID = "2110";
+	- _theMainDiagram = { IHandle 
+		- _m2Class = "IDiagram";
+		- _filename = "";
+		- _subsystem = "";
+		- _class = "";
+		- _name = "Class Diagram";
+		- _id = GUID 665b6ba0-22db-4007-8a94-1f4bd2029e7d;
+	}
+	- _lastID = 2;
+	- weakCGTime = 2.6.2017::19:53:27;
+	- strongCGTime = 2.6.2017::19:51:28;
+	- _defaultComposite = GUID 5d40a2ea-23e5-4c36-8fbb-a47d53f47989;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 3;
+		- value = 
+		{ IClass 
+			- _id = GUID 5d40a2ea-23e5-4c36-8fbb-a47d53f47989;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _objectCreation = "4413041602017144287244";
+			- _umlDependencyID = "2291";
+			- weakCGTime = 12.31.1969::18:0:0;
+			- strongCGTime = 12.31.1969::18:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 19d9b16a-e0d5-4557-bef8-f8143f1d77ba;
+			- _myState = 8192;
+			- _name = "Game_Board";
+			- _objectCreation = "4413043602017144285244";
+			- _umlDependencyID = "2441";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Class Diagram";
+				- _id = GUID 665b6ba0-22db-4007-8a94-1f4bd2029e7d;
+			}
+			- weakCGTime = 2.6.2017::19:57:59;
+			- strongCGTime = 2.6.2017::19:54:22;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 989326b6-901f-4dff-8521-c531aec606b8;
+					- _myState = 10240;
+					- _name = "itsInformation_Panel";
+					- _objectCreation = "4413045602017144283244";
+					- _umlDependencyID = "3565";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID f9fdce7b-bcef-4652-9900-acedab29b42e;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID c963005c-d27b-4fc7-a45a-88fc29bd7cf7;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID f9fdce7b-bcef-4652-9900-acedab29b42e;
+			- _myState = 8192;
+			- _name = "Information_Panel";
+			- _objectCreation = "4413047602017144281244";
+			- _umlDependencyID = "3229";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Class Diagram";
+				- _id = GUID 665b6ba0-22db-4007-8a94-1f4bd2029e7d;
+			}
+			- weakCGTime = 2.6.2017::19:57:59;
+			- strongCGTime = 2.6.2017::19:54:57;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID c963005c-d27b-4fc7-a45a-88fc29bd7cf7;
+					- _myState = 10240;
+					- _name = "itsGame_Board";
+					- _objectCreation = "4413049602017144279244";
+					- _umlDependencyID = "2786";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 19d9b16a-e0d5-4557-bef8-f8143f1d77ba;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 989326b6-901f-4dff-8521-c531aec606b8;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 12.31.1969::18:0:0;
+}
+
