@@ -1,0 +1,14 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler * 1159120
+
+- filesTable = { IRPYRawContainer 
+	- size = 7;
+	- value = "Projects.rpl" ""
+	"Snake_Game_Class_Diagram.rpy" ""
+	"Snake_Game_Class_Diagram_rpy\\Controller.sbs" "Controller"
+	"Snake_Game_Class_Diagram_rpy\\Default.sbs" "Default"
+	"Snake_Game_Class_Diagram_rpy\\DefaultComponent.cmp" "DefaultComponent"
+	"Snake_Game_Class_Diagram_rpy\\Model.sbs" "Model"
+	"Snake_Game_Class_Diagram_rpy\\View.sbs" "View"
+	
+}
+
