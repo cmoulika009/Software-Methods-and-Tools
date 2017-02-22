@@ -1,6 +1,6 @@
 # Software Methods and Tools
 
-Software methods and tools are extensively used in current software production to improve software productivity and quality. In this course, we are going to learn a number of popular software methods and tools being used in academia or industry. These methods include object-oriented design and analysis, architecture styles, unit testing, and version control. The covered software tools include Microsoft Project, IBM Rational Modeler, Eclipse Plug-ins, ArchStudio, JUnit, Subversion, and GIT. The course emphasizes practice, and students will be using these methods and tools to develop a software system, from initial planning to final deployment.
+Software methods and tools are extensively used in current software production to improve software productivity and quality. In this course, we learnt a number of popular software methods and tools being used in academia or industry. These methods include object-oriented design and analysis, architecture styles, unit testing, and version control. The covered software tools include Microsoft Project, IBM Rational Modeler, Eclipse Plug-ins, ArchStudio, JUnit, Subversion, and GIT. We used these methods and tools to develop a software system, from initial planning to final deployment.
 
 As part of this course we have developed project similar to Snake Game using Java
 
