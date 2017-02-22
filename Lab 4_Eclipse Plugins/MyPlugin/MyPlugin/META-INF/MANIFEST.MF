@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: My Plugin
+Bundle-SymbolicName: edu.umkc.moulika.myplugin;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: myplugin.Activator
+Bundle-Vendor: Moulika Chadalavada
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Export-Package: edu.umkc.moulika.myplugin

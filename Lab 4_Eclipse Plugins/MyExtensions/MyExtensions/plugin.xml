@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="edu.umkc.moulika.myplugin.helloworld">
+      <friend
+            class="edu.umkc.moulika.myextensions.GreeterEnglish"></friend>
+      <friend
+            class="edu.umkc.moulika.myextensions.GreeterIndia">
+      </friend>
+      <friend
+            class="edu.umkc.moulika.myextensions.GreeterChina">
+      </friend>
+      <friend
+            class="edu.umkc.moulika.myextensions.GreeterPakistan">
+      </friend>
+   </extension>
+
+</plugin>
