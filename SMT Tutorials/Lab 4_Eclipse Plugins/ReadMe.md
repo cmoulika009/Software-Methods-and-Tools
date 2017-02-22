@@ -7,4 +7,4 @@ the extension point declared by the other. We also ran these two plug-ins and in
 <b>Plugins:</b> https://github.com/cmoulika009/Software-Methods-and-Tools/tree/master/Lab%204_Eclipse%20Plugins/plugins
 
 
-<img src="https://github.com/cmoulika009/Software-Methods-and-Tools/blob/master/Lab%204_Eclipse%20Plugins/Output.jpg">
+<img src="https://github.com/cmoulika009/Software-Methods-and-Tools/blob/master/SMT%20Tutorials/Lab%204_Eclipse%20Plugins/Output.jpg">
