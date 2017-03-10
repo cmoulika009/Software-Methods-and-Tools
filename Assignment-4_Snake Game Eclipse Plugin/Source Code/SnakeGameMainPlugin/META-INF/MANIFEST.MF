@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SnakeGameMainPlugin
+Bundle-SymbolicName: edu.moulika.SnakeGameMainPlugin;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: snakegamemainplugin.Activator
+Bundle-Vendor: Moulika Chadalavada
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Export-Package: edu.moulika.Game.constants,
+ edu.moulika.gInterface

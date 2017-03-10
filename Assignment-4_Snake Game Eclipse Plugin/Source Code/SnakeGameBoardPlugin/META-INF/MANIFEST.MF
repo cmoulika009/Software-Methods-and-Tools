@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SnakeGameBoardPlugin
+Bundle-SymbolicName: edu.moulika.SnakeGameBoardPlugin;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: snakegameboardplugin.Activator
+Bundle-Vendor: Moulika Chadalavada
+Require-Bundle: org.eclipse.core.runtime,
+ edu.moulika.SnakeGameLogicPlugin;bundle-version="1.0.0",
+ edu.moulika.SnakeGameMainPlugin;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Export-Package: edu.moulika.boardPanel

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension-point id="edu.moulika.SnakeGameMainPlugin.StartGame" name="StartGame" schema="schema/edu.moulika.SnakeGameMainPlugin.StartGame.exsd"/>
+
+   <extension
+         point="org.eclipse.ui.commands">
+      <category
+            name="Sample Category"
+            id="edu.moulika.SnakeGameMainPlugin.commands.category">
+      </category>
+      <command
+            name="Sample Command"
+            categoryId="edu.moulika.SnakeGameMainPlugin.commands.category"
+            id="edu.moulika.SnakeGameMainPlugin.commands.sampleCommand">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.handlers">
+      <handler
+            commandId="edu.moulika.SnakeGameMainPlugin.commands.sampleCommand"
+            class="edu.moulika.SnakeGameMainPlugin.handlers.StartGameHandler">
+      </handler>
+   </extension>
+   <extension
+         point="org.eclipse.ui.bindings">
+      <key
+            commandId="edu.moulika.SnakeGameMainPlugin.commands.sampleCommand"
+            contextId="org.eclipse.ui.contexts.window"
+            sequence="M1+6"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration">
+      </key>
+   </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            locationURI="menu:org.eclipse.ui.main.menu?after=additions">
+         <menu
+               label="Sample Menu"
+               mnemonic="M"
+               id="edu.moulika.SnakeGameMainPlugin.menus.sampleMenu">
+            <command
+                  commandId="edu.moulika.SnakeGameMainPlugin.commands.sampleCommand"
+                  mnemonic="S"
+                  id="edu.moulika.SnakeGameMainPlugin.menus.sampleCommand">
+            </command>
+         </menu>
+      </menuContribution>
+      <menuContribution
+            locationURI="toolbar:org.eclipse.ui.main.toolbar?after=additions">
+         <toolbar
+               id="edu.moulika.SnakeGameMainPlugin.toolbars.sampleToolbar">
+            <command
+                  commandId="edu.moulika.SnakeGameMainPlugin.commands.sampleCommand"
+                  icon="icons/sample.gif"
+                  tooltip="Snake Game Plugin"
+                  id="edu.moulika.SnakeGameMainPlugin.toolbars.sampleCommand">
+            </command>
+         </toolbar>
+      </menuContribution>
+   </extension>
+
+</plugin>
