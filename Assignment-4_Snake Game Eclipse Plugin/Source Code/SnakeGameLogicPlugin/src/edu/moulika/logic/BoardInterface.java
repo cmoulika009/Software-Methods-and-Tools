@@ -1,16 +1,17 @@
-package edu.moulika.gInterface;
+package edu.moulika.logic;
 
-import java.awt.Graphics;
 import java.awt.Point;
 
 import edu.moulika.Game.constants.TileType;
+import edu.moulika.logic.SnakeGame;
 
 public interface BoardInterface {
+
 	int ROW_COUNT = 25;
-	
+
 	int COL_COUNT = 25;
 
-	void init(GameInterface game);
+	void init(SnakeGame game);
 
 	public void clearBoard();
 
@@ -20,5 +21,5 @@ public interface BoardInterface {
 
 	public TileType getTile(int x, int y);
 
-	public void paintComponent(Graphics g);
+	// public void paintComponent(Graphics g);
 }

@@ -1,5 +1,7 @@
 package edu.moulika.clockLogic;
 
+import edu.moulika.logic.ClockInterface;
+
 /***********************************************************************************************
  * Program Name : Clock.java
  * 
@@ -11,7 +13,6 @@ package edu.moulika.clockLogic;
  ************************************************************************************************/
 
 
-import edu.moulika.gInterface.ClockInterface;
 
 /**
  * The {@code Clock} class is responsible for tracking the number of cycles

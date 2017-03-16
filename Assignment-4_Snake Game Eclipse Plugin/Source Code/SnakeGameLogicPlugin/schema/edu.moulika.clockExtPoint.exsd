@@ -57,7 +57,7 @@
                   
                </documentation>
                <appinfo>
-                  <meta.attribute kind="java" basedOn=":edu.moulika.gInterface.ClockInterface"/>
+                  <meta.attribute kind="java" basedOn=":edu.moulika.logic.ClockInterface"/>
                </appinfo>
             </annotation>
          </attribute>
@@ -72,7 +72,7 @@
                   
                </documentation>
                <appinfo>
-                  <meta.attribute kind="java" basedOn=":edu.moulika.gInterface.SidePanelInterface"/>
+                  <meta.attribute kind="java" basedOn=":edu.moulika.logic.SidePanelInterface"/>
                </appinfo>
             </annotation>
          </attribute>
@@ -87,7 +87,7 @@
                   
                </documentation>
                <appinfo>
-                  <meta.attribute kind="java" basedOn=":edu.moulika.gInterface.BoardInterface"/>
+                  <meta.attribute kind="java" basedOn=":edu.moulika.logic.BoardInterface"/>
                </appinfo>
             </annotation>
          </attribute>

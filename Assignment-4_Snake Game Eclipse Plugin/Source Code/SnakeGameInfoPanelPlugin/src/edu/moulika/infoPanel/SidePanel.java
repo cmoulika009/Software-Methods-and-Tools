@@ -20,11 +20,11 @@ import java.awt.Graphics;
 import javax.swing.JPanel;
 
 import edu.moulika.boardPanel.BoardPanel;
+import edu.moulika.logic.SidePanelInterface;
 
 //import org.psnbtech.SnakeGame;
 
-import edu.moulika.gInterface.GameInterface;
-import edu.moulika.gInterface.SidePanelInterface;
+import edu.moulika.logic.SnakeGame;
 
 /**
  * The {@code SidePanel} class is responsible for displaying statistics and
@@ -59,7 +59,7 @@ public class SidePanel extends JPanel implements SidePanelInterface {
 	/**
 	 * The SnakeGame instance.
 	 */
-	private GameInterface game; // 1.1vc
+	private SnakeGame game; // 1.1vc
 
 	/**
 	 * Creates a new SidePanel instance.
@@ -73,7 +73,7 @@ public class SidePanel extends JPanel implements SidePanelInterface {
 
 	}
 
-	public void init(GameInterface game) {
+	public void init(SnakeGame game) {
 		this.game = game;
 
 		setPreferredSize(new Dimension(300, BoardPanel.ROW_COUNT * BoardPanel.TILE_SIZE));

@@ -20,9 +20,9 @@ import java.awt.Point;
 
 import javax.swing.JPanel;
 import edu.moulika.Game.constants.TileType;
-import edu.moulika.gInterface.BoardInterface;
-import edu.moulika.gInterface.GameInterface;
+import edu.moulika.logic.BoardInterface;
 //import edu.moulika.logic.SnakeGame;
+import edu.moulika.logic.SnakeGame;
 
 /**
  * The {@code BoardPanel} class is responsible for managing and displaying the
@@ -78,7 +78,7 @@ public class BoardPanel extends JPanel implements BoardInterface {//1.1vc implem
 	/**
 	 * The SnakeGame instance.
 	 */
-	private GameInterface game; //1.1vc changes SnakeGame to its interface
+	private edu.moulika.logic.SnakeGame game; //1.1vc changes SnakeGame to its interface
 	
 	/**
 	 * The array of tiles that make up this board.
@@ -95,7 +95,7 @@ public class BoardPanel extends JPanel implements BoardInterface {//1.1vc implem
 		
 	}
 	
-	public void init(GameInterface game){
+	public void init(SnakeGame game){
 		this.game = game;
 		this.tiles = new TileType[ROW_COUNT * COL_COUNT];
 		
@@ -318,5 +318,6 @@ public class BoardPanel extends JPanel implements BoardInterface {//1.1vc implem
 			break;
 		}
 	}
+
 
 }

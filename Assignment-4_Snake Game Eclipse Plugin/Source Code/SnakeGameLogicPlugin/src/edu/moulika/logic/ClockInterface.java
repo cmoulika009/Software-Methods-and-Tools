@@ -1,4 +1,4 @@
-package edu.moulika.gInterface;
+package edu.moulika.logic;
 
 public interface ClockInterface {
 	void setCyclesPerSecond(float cycles);

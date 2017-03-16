@@ -25,9 +25,8 @@ import javax.swing.JFrame;
 import org.eclipse.core.runtime.CoreException;
 import org.eclipse.core.runtime.IConfigurationElement;
 import org.eclipse.core.runtime.Platform;
-
-import edu.moulika.gInterface.*; //1.1vc
 import edu.moulika.Game.constants.TileType;
+import edu.moulika.gInterface.GameInterface;
 import edu.moulika.Game.constants.Direction;
 
 /**
