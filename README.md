@@ -21,7 +21,7 @@ As part of this course we have developed project similar to <b>Snake Game</b> us
 <img src="https://github.com/cmoulika009/Software-Methods-and-Tools/blob/master/Assignment-3_UML%20Modeling-Sequence%20%26%20State%20Diagram/SeqSnake-2.JPG">
 <img src="https://github.com/cmoulika009/Software-Methods-and-Tools/blob/master/Assignment-3_UML%20Modeling-Sequence%20%26%20State%20Diagram/SeqSnake-3.JPG">
 
-<h3>Java Application to Eclipse Pligin</h3>
+<h3>Java Application to Eclipse Plugin</h3>
 
 The standalone Java Snake Game is converted to Eclipse Plugin using extension and extension points. I created below 5 plugins and used extension and extension points to convert game to eclipse plugin.
 
@@ -59,3 +59,65 @@ Extension is created for extension point created in SnakeGameLogicPlugin which i
 Finally, SnakeGameMainPlugin is executed as Eclipse Application to run the plugin. Also, the entire project is exported as plugins and installed the same in Eclipse.
 
 <b>Plugins:</b> https://github.com/cmoulika009/Software-Methods-and-Tools/tree/master/Assignment-4_Snake%20Game%20Eclipse%20Plugin/plugins
+
+<h3>Snake Game Implementation in ArchStudio</h3>
+
+<b>What is Arch Studio??</b> 
+
+The ArchStudio environment plays two roles in the development of architectures:
+
+First, ArchStudio is an architecture development environment. That is, the ArchStudio developers have identified recurring principal design concerns that occur in many domains and projects, and attempted to support these. ArchStudio has built-in support for modeling the hierarchical structure of complex systems, the types of various components, connectors, and interfaces, product-lines of systems that are related by a common base, and so on.
+
+Second, ArchStudio is an architecture meta-modeling environment. ArchStudio is based on the highly-extensible xADL architecture description language. xADL allows stakeholders to define and re-define the language's syntax and semantics to suit their own needs, and ArchStudio provides the tool support for this extensibility.
+
+<b>Snake Game Architecture Diagram</b>
+
+Below is the architecture diagram of Snake Game with four component SnakeGame, Clock, SidePanel, BoardPanel. Using interface. links the components communicate with each other
+
+<img src="https://github.com/cmoulika009/Software-Methods-and-Tools/blob/master/Assignment-5_Snake%20Game%20Arch%20Studio/Images/Architecture%20Diagram.JPG">
+
+All components should communicate with each other using its in out Interface, defined for each component.
+
+<b>Final product is a two-player Snake game</b>
+
+Each player controls a snake using different keys in the keyboard.
+
+Player-1 uses below keys to control direction
+W : Move Up
+A: Move Down
+S: Move Down
+D: Move Right
+
+Player-2 uses Up,Down,Left,Right arrowkeys to control direction
+
+Once we press enter two snakes appear (Green: Player-1, Yellow: Player-2) and using above controls two players can play game.Two players play against each other. One player's snake can use its body to block the other snake.
+
+<img src="https://github.com/cmoulika009/Software-Methods-and-Tools/blob/master/Assignment-5_Snake%20Game%20Arch%20Studio/Images/SnakeGame-Start.JPG">
+
+<img src="https://github.com/cmoulika009/Software-Methods-and-Tools/blob/master/Assignment-5_Snake%20Game%20Arch%20Studio/Images/Two%20Player%20Game.jpg">
+
+The game ends if 
+
+ <b> i. Player-1 hits wall then Player-2 wins game</b>
+  
+  <img src="https://github.com/cmoulika009/Software-Methods-and-Tools/blob/master/Assignment-5_Snake%20Game%20Arch%20Studio/Images/Player-1%20hit%20Wall.JPG">
+  
+  <b>ii. Player-2 hits wall then Player-1 wins game</b>
+  
+  <img src="https://github.com/cmoulika009/Software-Methods-and-Tools/blob/master/Assignment-5_Snake%20Game%20Arch%20Studio/Images/Player-2%20hit%20wall.JPG">
+  
+ <b> iii. Player-2 hits Player-1 then Player-1 wins game</b>
+  
+  <img src="https://github.com/cmoulika009/Software-Methods-and-Tools/blob/master/Assignment-5_Snake%20Game%20Arch%20Studio/Images/Player-2%20hits%20Playe-1.JPG">
+  
+  <b>iv. Player-1 hits Player-2 then Player-2 wins game</b>
+  
+  <img src="https://github.com/cmoulika009/Software-Methods-and-Tools/blob/master/Assignment-5_Snake%20Game%20Arch%20Studio/Images/Player-1%20hits%20Player-2.JPG">
+  
+  <b>v. If one player's snake eats 5 fruits first</b>
+  
+  In below diagram Player-2 ate 5 fruits so it won the game.
+  
+  <img src="https://github.com/cmoulika009/Software-Methods-and-Tools/blob/master/Assignment-5_Snake%20Game%20Arch%20Studio/Images/Player-2%20ate%205%20Fruits.JPG">
+  
+<b>Source Code:</b> https://github.com/cmoulika009/Software-Methods-and-Tools/tree/master/Assignment-5_Snake%20Game%20Arch%20Studio/Source%20Code/SnakeGameArchStudio
