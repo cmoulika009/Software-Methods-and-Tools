@@ -8,6 +8,8 @@ https://github.com/cmoulika009/Software-Methods-and-Tools/tree/master/SMT%20Tuto
 
 As part of this course we have developed project similar to <b>Snake Game</b> using Java
 
+<b>Tools Used :</b> Eclipse, ArchStudio, Microsoft Project 2013, IBM Rational Software Modeler</b>
+
 <h3>UML Diagrams</h3>
 
 <h4><u>Class Diagram:</u></h4>
